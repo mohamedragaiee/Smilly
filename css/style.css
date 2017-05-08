@@ -1,6 +1,7 @@
 /* start fram work */
 * {
-    box-sizing: border-box
+    box-sizing: border-box;
+    animation-delay: .8s
 }
 
 body{
@@ -38,7 +39,7 @@ a:hover,a:focus{
 
 nav {
     position:fixed;
-   
+    animation-delay: .5s
     background-color: rgba(36, 35, 35, 0.8);
    
 }
@@ -108,6 +109,7 @@ header h1 {
     font-size: 96px;
     font-weight: bold;
     color: #FFF;
+     animation-delay: 1.5s
 }
 
 header p {
@@ -116,7 +118,8 @@ header p {
     word-spacing: 3px;
     letter-spacing: 3px;
     line-height: 1.5;
-    margin-bottom: 50px
+    margin-bottom: 50px;
+     animation-delay: 2s
 }
 
 header button {
@@ -124,7 +127,8 @@ header button {
     border-radius: 25px;
     padding: 10px 30px;
     border:0;
-    font-size: 18px
+    font-size: 18px;
+     animation-delay: 3s
 }
 /* end our header*/
 
