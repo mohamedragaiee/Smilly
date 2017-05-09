@@ -132,6 +132,84 @@ header button {
 }
 /* end our header*/
 
+/* start about us */
+
+.about-us .left-info p:first-child {
+    margin-top: 55%;
+    margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 60px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'playfair';
+    color:#777;
+}
+
+.about-us .left-info p:nth-child(2){
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    color:#777;
+}
+
+.about-us .left-info .qute {
+    font-size: 90px;
+    font-family: 'playfair';
+    line-height: 30px;
+    vertical-align: middle;
+    margin-bottom: -20px;
+    margin-right: 20px;
+    color:#777
+}
+
+.about-us .right-info h2 {
+    font-size: 65px;
+    font-weight: 600;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    font-family: 'Roboto';
+    text-transform: capitalize;
+}
+
+.about-us .right-info p span:first-child {
+    position: relative;
+    top:5px;
+    border-radius:50%;
+    background-color:#2176ff;
+    font-size: 45px;
+    text-align: center;
+    width: 51px;
+    float:left;
+    line-height: 52px;
+    margin-right: 10px;
+    color: #FFF
+}
+
+.about-us .right-info p {
+    margin-top: 25px;
+    font-size: 18px;
+    line-height: 1.7;
+    color:#777;
+}
+.about-us .right-info button {
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    border: 1px solid #000;
+    background-color: transparent;
+    padding: 10px 25px;
+    border-radius: 25px;
+    letter-spacing: 4px;
+    color: black;
+}
+
+.about-us .right-info button:hover {
+    border-color: #2176ff;
+    background-color: #2176ff;
+    color:#FFF
+}
+/* end about us */
+
 @media screen and (max-width: 768px){
   header  h1{
        font-size:50px
