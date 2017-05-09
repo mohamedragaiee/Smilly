@@ -10,7 +10,7 @@ $(function () {
         
         if ($(window).width() < 768) {
             
-            $('header .hdr').css('margin-top', ($(window).height() - 400));
+            $('header .hdr').css('margin-top', ($(window).height() - 457));
         }
         
     });
