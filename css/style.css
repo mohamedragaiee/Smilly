@@ -1,6 +1,6 @@
 /* start fram work */
 * {
-    box-sizing: border-box;
+   
     animation-delay: .8s
 }
 
@@ -39,7 +39,7 @@ a:hover,a:focus{
 
 nav {
     position:fixed;
-    animation-delay: .5s
+    animation-delay: .8s;
     background-color: rgba(36, 35, 35, 0.8);
    
 }
@@ -104,7 +104,7 @@ header {
     right: 0;
 }
 header h1 {
-   margin-top: 20%;
+   margin-top: 26%;
     margin-bottom: 30px;
     font-size: 96px;
     font-weight: bold;
@@ -134,6 +134,9 @@ header button {
 
 @media screen and (max-width: 768px){
   header  h1{
-       font-size:50px;
+       font-size:40px;
+    }
+    header p{
+        font-size: 15px
     }
 }
