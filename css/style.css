@@ -86,7 +86,7 @@ nav button {
    background-color:  rgba(36, 35, 35, 0.9);
     border: 2px solid #382607;
     z-index: 4;
-    top: 50px
+    top: 39px
     
     
 }
@@ -94,7 +94,8 @@ nav button {
 nav .bar{
     float: right;
     overflow: hidden;
-    color: aliceblue
+    color: aliceblue;
+    font-size: 10px
 }
 /* end our nav bar */
 
@@ -116,7 +117,7 @@ header {
     right: 0;
 }
 header h1 {
-   margin-top: 26%;
+   margin-top: 25%;
     margin-bottom: 30px;
     font-size: 96px;
     font-weight: bold;
@@ -150,5 +151,12 @@ header button {
     }
     header p{
         font-size: 15px
+    }
+    nav .brand{
+        font-size: 20px
+    }
+    .nav li,.nav li button{
+        font-size: 15px;
+        padding: 8px
     }
 }
