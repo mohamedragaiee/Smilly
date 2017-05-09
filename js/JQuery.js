@@ -6,10 +6,6 @@ $(function () {
 
    /* $('header h1').css('margin-top', ($(window).height() - 100 - $(this).height() / 2));*/
 
-   
-    
-    $('header').height($(window).height());
-
     
     $('header').height($(window).height());
     
