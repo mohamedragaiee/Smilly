@@ -215,7 +215,11 @@ header button {
 .about-us .right-info button:hover {
     border-color: #2176ff;
     background-color: #2176ff;
-    color:#FFF
+    color:#FFF;
+    -webkit-transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out;
 }
 /* end about us */
 
@@ -232,5 +236,17 @@ header button {
     .nav li,.nav li button{
         font-size: 15px;
         padding: 8px
+    }
+}
+
+@media {
+    .text-center-xs {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .text-left-sm {
+        text-align: left;
     }
 }
