@@ -15,10 +15,7 @@ body{
 .main-color {
     background-color: #1D6CE2
 }
-img{
-    width: 100%;
-    height: 100%
-}
+
 section,footer{
     margin-top: 2%
 }
