@@ -219,6 +219,32 @@ header button {
 }
 /* end about us */
 
+/*start video*/
+
+.video{
+    background-image: url(../images/building.jpg);
+    height: 600px;
+    background-size: cover;
+    font-size: 100px;
+    position: relative;
+    color: aliceblue
+    
+}
+.video h3{
+    margin: 100px auto 20px;
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 768px){
   header  h1{
        font-size:40px;
