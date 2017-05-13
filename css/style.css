@@ -223,7 +223,7 @@ header button {
 
 .video{
     background-image: url(../images/building.jpg);
-    height: 600px;
+    height: 700px;
     background-size: cover;
     font-size: 100px;
     position: relative;
@@ -231,11 +231,10 @@ header button {
     
 }
 .video h3{
-    margin: 100px auto 20px;
+    margin: 30px auto -95px;
     font-size: 80px;
     font-weight: bolder;
 }
-
 
 
 
