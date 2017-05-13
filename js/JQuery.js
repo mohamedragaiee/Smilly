@@ -4,8 +4,16 @@ $(function () {
     'use strict';
     
 
-   /* $('header h1').css('margin-top', ($(window).height() - 100 - $(this).height() / 2));*/
-
+    $('header .hdr').css('margin-top', ($(window).height() - 484));
+    
+    $(window).width(function () {
+        
+        if ($(window).width() < 768) {
+            
+            $('header .hdr').css('margin-top', ($(window).height() - 457));
+        }
+        
+    });
     
     $('header').height($(window).height());
     
@@ -13,19 +21,4 @@ $(function () {
        
         $('nav .nav ').toggleClass('visibel');
     });
-    $(".video i").click(function () {
-    //console.log(this);
-        $('.video video').css('display', 'block');
-       
-        $("video").click(function () {
-         //console.log(this); 
-            if (this.paused) {
-                this.play();
-            } else {
-                this.pause();
-                
-            }
-        });
-    });
-  
 });
