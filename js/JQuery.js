@@ -3,7 +3,6 @@ $(function () {
    
     'use strict';
     
-
     $('header .hdr').css('margin-top', ($(window).height() - 484));
     
     $(window).width(function () {
@@ -17,7 +16,7 @@ $(function () {
     
     $('header').height($(window).height());
     
-    $('nav .bar i').click(function () {
+    $('nav .bar i').click(500, function () {
        
         $('nav .nav ').toggleClass('visibel');
     });

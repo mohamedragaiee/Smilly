@@ -4,9 +4,7 @@
     animation-delay: .8s
 }
 
-body{
-    height: 1900px;
-}
+
 .upper {
     text-transform: uppercase
 }
@@ -34,7 +32,6 @@ a:hover,a:focus{
 /* start our nav bar */ 
 
 nav {
-    position:fixed;
     animation-delay: .8s;
     background-color: rgba(36, 35, 35, 0.8);
    
@@ -46,6 +43,9 @@ nav .brand{
      font-weight: bold;
     color: #FFF;}
  
+nav .brand:hover{
+    transform: rotate(90deg);
+}
  strong{
     border-radius: 8px;
     padding: 8px
@@ -57,6 +57,7 @@ nav .nav{
 nav ul li{
     padding: 15px 10px;
     font-size: 20px;
+    text-align: center
     
     
 
@@ -76,13 +77,20 @@ nav button {
     font-size: 18px;
     
 }
+nav button:hover{
+    color: #333;
+    background-color: #fff
+}
 .visibel{
     display:block !important;
     position: absolute;
    background-color:  rgba(36, 35, 35, 0.9);
     border: 2px solid #382607;
     z-index: 4;
-    top: 39px
+    top: 39px;
+    width: 264%;
+    left: -158px;
+    animation-delay: .1s
     
     
 }
@@ -92,6 +100,10 @@ nav .bar{
     overflow: hidden;
     color: aliceblue;
     font-size: 10px
+}
+nav .bar:hover{
+    transform: scale(.9, .8);
+    color: #80878c
 }
 /* end our nav bar */
 
@@ -235,17 +247,35 @@ header button {
 }
 .video h3{
     margin: 30px auto -95px;
-    font-size: 80px;
+    font-size: 70px;
     font-weight: bolder;
 }
 
 
 @media screen and (max-width: 768px){
-  header  h1{
+  header h1{
        font-size:40px;
+    }
+    .video h3{
+       font-size:30px;
+    }
+    .video{
+        height: 400px
+    }
+    .video iframe{
+        height: auto
     }
     header p{
         font-size: 15px
+    }
+    .about-us .right-info p{
+        font-size: 15px
+    }
+    .about-us .left-info p span{
+        font-size: 20px
+    }        
+    .about-us .right-info h2{
+        font-size: 35px
     }
     nav .brand{
         font-size: 20px
