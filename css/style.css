@@ -37,15 +37,17 @@ nav {
    
 }
 nav .brand{
-  padding: 10px;
-    float: left;
-    font-size: 35px;
+     padding: 15px;
+     float: left;
+     font-size: 35px;
      font-weight: bold;
-    color: #FFF;}
- 
-nav .brand:hover{
-    transform: rotate(90deg);
+     color: #FFF;
+    
+    
+
 }
+ 
+;
  strong{
     border-radius: 8px;
     padding: 8px
@@ -79,7 +81,8 @@ nav button {
 }
 nav button:hover{
     color: #333;
-    background-color: #fff
+    background-color: #fff;
+    
 }
 .visibel{
     display:block !important;
@@ -87,9 +90,9 @@ nav button:hover{
    background-color:  rgba(36, 35, 35, 0.9);
     border: 2px solid #382607;
     z-index: 4;
-    top: 39px;
-    width: 264%;
-    left: -158px;
+    top: 51px;
+    left:15px;
+   right: 0;
     animation-delay: .1s
     
     
@@ -99,7 +102,8 @@ nav .bar{
     float: right;
     overflow: hidden;
     color: aliceblue;
-    font-size: 10px
+    font-size: 10px;
+    margin: 3%
 }
 nav .bar:hover{
     transform: scale(.9, .8);
@@ -123,6 +127,8 @@ header {
     left: 0;
     bottom: 0;
     right: 0;
+    width: 100%;
+    
 }
 header h1 {
 
@@ -250,8 +256,45 @@ header button {
     font-size: 70px;
     font-weight: bolder;
 }
+.video iframe{
+    padding: auto 10%;
+}
+ /*start Our-Work */
 
+.our-work h2{
+    font-size:40px;
+    color:#444;
+    font-weight: bold
+}
+.our-work p{
+   
+    display:inline-block;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: bold;
+     color:#777;
+}
 
+.our-work button{
+      color:#FFF;
+    border-radius: 18px;
+    padding: 8px 20px;
+    border:0;
+    font-size: 18px;
+   
+    
+}
+.our-work button:hover,.our-work button:focus{
+     color: #333;
+    background-color: #fff;
+    border: 2px solid #1D6CE2
+}
+
+.our-work img{
+  
+    margin-bottom: 20px;
+    margin-top: 20px
+}
 @media screen and (max-width: 768px){
   header h1{
        font-size:40px;
@@ -278,7 +321,7 @@ header button {
         font-size: 35px
     }
     nav .brand{
-        font-size: 20px
+        font-size: 30px
     }
     .nav li,.nav li button{
         font-size: 15px;
