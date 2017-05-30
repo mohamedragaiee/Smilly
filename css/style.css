@@ -47,8 +47,8 @@ nav .brand{
 
 }
  
-;
- strong{
+
+nav .brand span,header span{
     border-radius: 8px;
     padding: 8px
 }
@@ -295,6 +295,66 @@ header button {
     margin-bottom: 20px;
     margin-top: 20px
 }
+
+/* start Articl  */
+.articel{
+   background-color:#303745;
+    padding: 5%;
+    position:relative
+}
+.articel .art-1, .articel .art-2, .articel .art-3, .articel .art-4{
+    margin-top: 10%;
+    padding: 0 !important;
+    width: 350px;
+    height: 450px;
+    background-color: #fff;
+    border:4px solid #fff
+    
+}
+.articel .art-1::before, .articel .art-3::before { 
+    content: " ";
+   position: absolute;
+    width: 0; 
+   height: 0;
+    top: 50%;
+    right:-10%;
+     border-top: 30px solid transparent;
+   border-bottom: 30px solid transparent;
+   border-left: 30px solid #fff;
+    
+}
+.articel .art-2::before, .articel .art-4::before { 
+    content: " ";
+   position: absolute;
+    width: 0; 
+   height: 0;
+    top: 50%;
+    left:-9%;
+     border-top: 30px solid transparent;
+   border-bottom: 30px solid transparent;
+   border-right: 30px solid #fff;
+    
+}
+.articel  img{
+    width: 100%;
+    height: 40%
+}
+.articel i{
+    color: #fff
+}
+.articel span{
+    background-color: #fff;
+    padding: 4px
+}
+
+.line{
+    background-color: #fff;
+    width:8px;
+    height: 150%;
+    position: absolute;
+    right: 50%
+}
+
 @media screen and (max-width: 768px){
   header h1{
        font-size:40px;
