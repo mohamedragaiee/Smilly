@@ -35,8 +35,12 @@ nav {
     animation-delay: .8s;
     background-color: rgba(36, 35, 35, 0.8);
    
+   
+   
 }
 nav .brand{
+   
+   
      padding: 15px;
      float: left;
      font-size: 35px;
@@ -305,7 +309,7 @@ header button {
 .articel .art-1, .articel .art-2, .articel .art-3, .articel .art-4{
     margin-top: 10%;
     padding: 0 !important;
-    width: 350px;
+   
     height: 450px;
     background-color: #fff;
     border:4px solid #fff
@@ -317,7 +321,7 @@ header button {
     width: 0; 
    height: 0;
     top: 50%;
-    right:-10%;
+    right:-9%;
      border-top: 30px solid transparent;
    border-bottom: 30px solid transparent;
    border-left: 30px solid #fff;
@@ -386,6 +390,9 @@ header button {
     .nav li,.nav li button{
         font-size: 15px;
         padding: 8px
+    }
+    .articel .art-1::before, .articel .art-3::before, .articel .art-2::before, .articel .art-4::before{
+        display: none
     }
 }
 
