@@ -9,7 +9,8 @@ $(function () {
         
         if ($(window).width() < 768) {
             
-            $('header .hdr').css('margin-top', ($(window).height() - 457));
+            $('header .hdr').css('margin-top', ($(window).height() / 4));
+            $('nav .nav').css('width', '100%');
         }
         
     });
@@ -20,4 +21,6 @@ $(function () {
        
         $('nav .nav ').toggleClass('visibel');
     });
+    
+  
 });
