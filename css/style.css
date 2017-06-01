@@ -1,14 +1,16 @@
 /* start fram work */
+
 * {
-   
     animation-delay: .8s
 }
-
 
 .upper {
     text-transform: uppercase
 }
 
+.center {
+    text-align: center
+}
 
 .main-color {
     background-color: #1D6CE2
@@ -21,52 +23,43 @@ section,footer{
 a{
     color:#fff;
     transition: all 1s ease-in;
-    
-    
 }
+
 a:hover,a:focus{
   text-decoration: none;
      color:#fff;
 }
+
 /*End fram work */
+
 /* start our nav bar */ 
 
 nav {
     animation-delay: .8s;
     background-color: rgba(36, 35, 35, 0.8);
-   
-   
-   
 }
+
 nav .brand{
-   
-   
      padding: 15px;
      float: left;
      font-size: 35px;
      font-weight: bold;
      color: #FFF;
-    
-    
-
 }
  
-
 nav .brand span,header span{
     border-radius: 8px;
     padding: 8px
 }
+
 nav .nav{
      float: right;
-   
 }
+
 nav ul li{
     padding: 15px 10px;
     font-size: 20px;
     text-align: center
-    
-    
-
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
@@ -80,14 +73,14 @@ nav button {
     border-radius: 18px;
     padding: 8px 20px;
     border:0;
-    font-size: 18px;
-    
+    font-size: 18px;  
 }
+
 nav button:hover{
     color: #333;
-    background-color: #fff;
-    
+    background-color: #fff; 
 }
+
 .visibel{
     display:block !important;
     position: absolute;
@@ -98,8 +91,6 @@ nav button:hover{
     left:15px;
    right: 0;
     animation-delay: .1s
-    
-    
 }
 
 nav .bar{
@@ -109,13 +100,16 @@ nav .bar{
     font-size: 10px;
     margin: 3%
 }
+
 nav .bar:hover{
     transform: scale(.9, .8);
     color: #80878c
 }
+
 /* end our nav bar */
 
 /* start our header */
+
 header {
     background-image: url('../images/Business-Marketing-For-Successive-Results.jpg');
     background-size: cover;
@@ -132,7 +126,6 @@ header {
     bottom: 0;
     right: 0;
     width: 100%;
-    
 }
 header h1 {
 
@@ -161,6 +154,7 @@ header button {
     font-size: 18px;
      animation-delay: 3s
 }
+
 /* end our header*/
 
 /* start about us */
@@ -253,16 +247,18 @@ header button {
     font-size: 100px;
     position: relative;
     color: aliceblue
-    
 }
+
 .video h3{
     margin: 30px auto -95px;
     font-size: 70px;
     font-weight: bolder;
 }
+
 .video iframe{
     padding: auto 10%;
 }
+
  /*start Our-Work */
 
 .our-work h2{
@@ -270,82 +266,103 @@ header button {
     color:#444;
     font-weight: bold
 }
+
 .our-work p{
-   
     display:inline-block;
     letter-spacing: 1px;
     font-size: 20px;
     font-weight: bold;
-     color:#777;
+    color:#777;
 }
 
 .our-work button{
-      color:#FFF;
+    color:#FFF;
     border-radius: 18px;
     padding: 8px 20px;
     border:0;
-    font-size: 18px;
-   
-    
+    font-size: 18px; 
 }
+
 .our-work button:hover,.our-work button:focus{
-     color: #333;
+    color: #333;
     background-color: #fff;
     border: 2px solid #1D6CE2
 }
 
 .our-work img{
-  
     margin-bottom: 20px;
     margin-top: 20px
 }
 
 /* start Articl  */
+
 .articel{
-   background-color:#303745;
+    background-color:#303745;
     padding: 5%;
     position:relative
 }
+
+.articel .circle {
+    height: 1%;
+    width: 1%;
+    border-radius: 50%;
+    position: absolute;
+    top: 37.6%;
+    right:49.5%;
+    background-color: #FFF;
+}
+
+.articel .circle2 {
+    height: 1%;
+    width: 1%;
+    border-radius: 50%;
+    position: absolute;
+    right:49.5%;
+    bottom: 19.6%;
+    background-color: #FFF;
+}
+
 .articel .art-1, .articel .art-2, .articel .art-3, .articel .art-4{
     margin-top: 10%;
     padding: 0 !important;
-   
     height: 450px;
     background-color: #fff;
     border:4px solid #fff
-    
 }
+
 .articel .art-1::before, .articel .art-3::before { 
     content: " ";
-   position: absolute;
+    position: absolute;
     width: 0; 
-   height: 0;
+    height: 0;
     top: 50%;
     right:-9%;
-     border-top: 30px solid transparent;
-   border-bottom: 30px solid transparent;
-   border-left: 30px solid #fff;
-    
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 30px solid #fff;
 }
+
 .articel .art-2::before, .articel .art-4::before { 
     content: " ";
-   position: absolute;
+    position: absolute;
     width: 0; 
-   height: 0;
+    height: 0;
     top: 50%;
     left:-9%;
-     border-top: 30px solid transparent;
-   border-bottom: 30px solid transparent;
-   border-right: 30px solid #fff;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-right: 30px solid #fff;
     
 }
 .articel  img{
     width: 100%;
     height: 40%
 }
+
 .articel i{
     color: #fff
 }
+
 .articel span{
     background-color: #fff;
     padding: 4px
@@ -353,11 +370,92 @@ header button {
 
 .line{
     background-color: #fff;
-    width:8px;
-    height: 150%;
+    width:.2%;
+    max-height: 90%;
+    height: 100%;
     position: absolute;
-    right: 50%
+    right: 49.9%
 }
+
+/* start our services section */
+
+.our-serv .head h2 {
+    font-weight: 600;
+    font-size: 60px;
+    margin-top: 6%;
+    MARGIN-BOTTOM: 3%;
+}
+
+.our-serv .head p {
+    line-height: 1.8;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 3%;
+    color: #747a87
+}
+
+.our-serv .serv {
+    margin-top: 20%;
+}
+
+.our-serv .serv:hover h3 {
+    color: #7da7fa
+}
+
+.our-serv .serv .icon {
+    border: 1px solid #7da7fa;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    color: #7da7fa;
+    font-size: 50px;
+    cursor: pointer
+}
+
+.our-serv .serv h3 {
+    margin: 30px 0;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    cursor: pointer
+}
+
+.our-serv .serv .fa-chevron-down {
+    color: #7da7fa
+}
+
+.our-serv .serv p {
+    margin: 30px 0;
+    font-size: 18px;
+    color: #747a87
+}
+
+.our-serv .serv .seperator {
+    border-bottom: 1px solid #e0dede;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 100%;
+    max-width: 60%;
+}
+
+.our-serv div button {
+    background-color: #1D6CE2;
+    border: 0;
+    padding: 10px 30px;
+    border-radius: 25px;
+    color: #FFF;
+    margin: 7% 0;
+    font-size: 18px;
+}
+
+.our-serv div button:hover {
+    background-color: #2176ff
+}
+
+/* end our services section */
 
 @media screen and (max-width: 768px){
   header h1{
@@ -395,6 +493,7 @@ header button {
         display: none
     }
 }
+
 
 @media {
     .text-center-xs {
