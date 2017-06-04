@@ -37,6 +37,7 @@ a:hover,a:focus{
 nav {
     animation-delay: .8s;
     background-color: rgba(36, 35, 35, 0.8);
+    overflow: hidden
 }
 
 nav .brand{
@@ -84,12 +85,12 @@ nav button:hover{
 .visibel{
     display:block !important;
     position: absolute;
-   background-color:  rgba(36, 35, 35, 0.9);
+    background-color:  rgba(36, 35, 35, 0.9);
     border: 2px solid #382607;
     z-index: 4;
     top: 51px;
     left:15px;
-   right: 0;
+    right: 0;
     animation-delay: .1s
 }
 
@@ -152,7 +153,7 @@ header button {
     padding: 10px 30px;
     border:0;
     font-size: 18px;
-     animation-delay: 3s
+    animation-delay: 3s;
 }
 
 /* end our header*/
@@ -456,6 +457,60 @@ header button {
 }
 
 /* end our services section */
+
+/* start contact us */
+
+.contact-us {
+    background-image: url("../images/02c182cfb9812c46e02c3449a58e798b.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact-us .over-lay {
+    background-color: rgba(57, 114, 255, .9);
+    height: 100%;
+    width: 100%
+}
+
+.contact-us h2 {
+    padding-top: 300px;
+    font-size: 84px;
+    font-weight: 700;
+    line-height: 117px;
+    color: #FFF;
+}
+
+.contact-us p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #FFF;
+}
+
+.contact-us button {
+    border: 0;
+    margin-top: 35px;
+    margin-bottom: 260px;
+    padding: 10px 36px;
+    border-radius: 25px;
+    font-size: 18px;
+    background-color: #FFF;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.contact-us button:hover {
+    background-color: #27334D;
+    color:#FFF
+}
+
+.contact-us button i {
+    padding-right: 10px
+}
+/* end contact us */
 
 @media screen and (max-width: 768px){
   header h1{
