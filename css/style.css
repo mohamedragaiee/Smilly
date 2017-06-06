@@ -26,8 +26,8 @@ a{
 }
 
 a:hover,a:focus{
-  text-decoration: none;
-     color:#fff;
+    text-decoration: none;
+    color:#fff;
 }
 
 /*End fram work */
@@ -37,15 +37,14 @@ a:hover,a:focus{
 nav {
     animation-delay: .8s;
     background-color: rgba(36, 35, 35, 0.8);
-    overflow: hidden
 }
 
 nav .brand{
-     padding: 15px;
-     float: left;
-     font-size: 35px;
-     font-weight: bold;
-     color: #FFF;
+    padding: 15px;
+    float: left;
+    font-size: 35px;
+    font-weight: bold;
+    color: #FFF;
 }
  
 nav .brand span,header span{
@@ -64,7 +63,7 @@ nav ul li{
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
-   background-color: #1D6CE2;
+    background-color: #1D6CE2;
     cursor: pointer;
     color: #fff
 }
@@ -99,7 +98,7 @@ nav .bar{
     overflow: hidden;
     color: aliceblue;
     font-size: 10px;
-    margin: 3%
+    margin: 3%;
 }
 
 nav .bar:hover{
@@ -116,20 +115,19 @@ header {
     background-size: cover;
     background-attachment: fixed;
     position: relative
-    
 }
 
 .overlay {
     background-color: rgba(58, 65, 79, .6);
     position: absolute;
-     top: 0;
+    top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     width: 100%;
 }
-header h1 {
 
+header h1 {
     margin-bottom: 30px;
     font-size: 96px;
     font-weight: bold;
@@ -144,7 +142,7 @@ header p {
     letter-spacing: 3px;
     line-height: 1.5;
     margin-bottom: 50px;
-     animation-delay: 2s
+    animation-delay: 2s
 }
 
 header button {
@@ -511,6 +509,74 @@ header button {
     padding-right: 10px
 }
 /* end contact us */
+
+/* star footer */
+
+footer {
+    background-color: #282A2B;
+    overflow: hidden;
+    margin-top: 0
+}
+
+footer .copyright {
+    float:left;
+    color: #FFF;
+    margin-top: 30px
+}
+
+footer .copyright span {
+    padding-left: 5px
+}
+
+footer .copyright span:first-child {
+    margin-left: 20px
+}
+
+footer .copyright span:after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    max-height: 30%;
+    border-right: 1px solid #FFF;
+    padding-right: 10px;
+}
+
+footer .copyright span:last-child:after{
+    content: "";
+    border: 0
+}
+
+footer .social {
+    float: right;
+    color: #2176ff
+}
+
+footer .social i {
+    background-color: #FFF;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 19px;
+    margin: 20px 5px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+footer .social i:hover {
+    background-color: #2176ff;
+    color: #FFF
+}
+
+footer .social i:last-child {
+    margin-right: 22px
+}
+
+/* end footer */
 
 @media screen and (max-width: 768px){
   header h1{
