@@ -16,84 +16,96 @@
     background-color: #1D6CE2
 }
 
-section,footer{
+section,
+footer {
     margin-top: 2%
 }
 
-a{
-    color:#fff;
+a {
+    color: #fff;
     transition: all 1s ease-in;
 }
 
-a:hover,a:focus{
+a:hover,
+a:focus {
     text-decoration: none;
-    color:#fff;
+    color: #fff;
 }
+
 
 /*End fram work */
 
-/* start our nav bar */ 
+
+/* start our nav bar */
 
 nav {
     animation-delay: .8s;
     background-color: rgba(36, 35, 35, 0.8);
 }
 
-nav .brand{
+nav .brand {
     padding: 15px;
     float: left;
     font-size: 35px;
     font-weight: bold;
     color: #FFF;
 }
- 
-nav .brand span,header span{
+
+nav .brand:hover {
+    letter-spacing: 5px
+}
+
+nav .brand span,
+header span {
     border-radius: 8px;
     padding: 8px
 }
 
-nav .nav{
-     float: right;
+nav .nav {
+    float: right;
 }
 
-nav ul li{
+nav ul li {
     padding: 15px 10px;
     font-size: 20px;
     text-align: center
 }
 
-.nav > li > a:hover, .nav > li > a:focus {
+.nav>li>a:hover,
+.nav>li>a:focus {
     background-color: #1D6CE2;
     cursor: pointer;
     color: #fff
 }
 
+nav button a,
 nav button {
-    color:#FFF;
-    border-radius: 18px;
-    padding: 8px 20px;
-    border:0;
-    font-size: 18px;  
-}
-
-nav button:hover{
     color: #333;
-    background-color: #fff; 
+    padding: 8px 20px;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 6px;
+    font-size: 18px;
 }
 
-.visibel{
-    display:block !important;
+nav button:hover {
+    color: #fff;
+    background-color: #1D6CE2;
+}
+
+.visibel {
+    display: block !important;
     position: absolute;
-    background-color:  rgba(36, 35, 35, 0.9);
+    background-color: rgba(36, 35, 35, 0.9);
     border: 2px solid #382607;
     z-index: 4;
     top: 51px;
-    left:15px;
+    left: 0;
     right: 0;
     animation-delay: .1s
 }
 
-nav .bar{
+nav .bar {
     float: right;
     overflow: hidden;
     color: aliceblue;
@@ -101,12 +113,14 @@ nav .bar{
     margin: 3%;
 }
 
-nav .bar:hover{
+nav .bar:hover {
     transform: scale(.9, .8);
     color: #80878c
 }
 
+
 /* end our nav bar */
+
 
 /* start our header */
 
@@ -132,7 +146,7 @@ header h1 {
     font-size: 96px;
     font-weight: bold;
     color: #FFF;
-     animation-delay: 1.5s
+    animation-delay: 1.5s
 }
 
 header p {
@@ -146,15 +160,23 @@ header p {
 }
 
 header button {
-    color:#FFF;
-    border-radius: 25px;
+    color: #333;
+    background-color: #EEE;
+    border-radius: 10px;
     padding: 10px 30px;
-    border:0;
+    border: 0;
     font-size: 18px;
     animation-delay: 3s;
 }
 
+header button:hover {
+    background-color: #1D6CE2;
+    color: #fff
+}
+
+
 /* end our header*/
+
 
 /* start about us */
 
@@ -166,14 +188,14 @@ header button {
     font-style: normal;
     font-weight: 400;
     font-family: 'playfair';
-    color:#777;
+    color: #777;
 }
 
-.about-us .left-info p:nth-child(2){
+.about-us .left-info p:nth-child(2) {
     letter-spacing: 3px;
     font-size: 20px;
     font-weight: bold;
-    color:#777;
+    color: #777;
 }
 
 .about-us .left-info .qute {
@@ -183,7 +205,7 @@ header button {
     vertical-align: middle;
     margin-bottom: -20px;
     margin-right: 20px;
-    color:#777
+    color: #777
 }
 
 .about-us .right-info h2 {
@@ -197,13 +219,13 @@ header button {
 
 .about-us .right-info p span:first-child {
     position: relative;
-    top:5px;
-    border-radius:50%;
-    background-color:#2176ff;
+    top: 5px;
+    border-radius: 50%;
+    background-color: #2176ff;
     font-size: 45px;
     text-align: center;
     width: 51px;
-    float:left;
+    float: left;
     line-height: 52px;
     margin-right: 10px;
     color: #FFF
@@ -213,8 +235,9 @@ header button {
     margin-top: 25px;
     font-size: 18px;
     line-height: 1.7;
-    color:#777;
+    color: #777;
 }
+
 .about-us .right-info button {
     text-transform: uppercase;
     margin-top: 20px;
@@ -230,16 +253,17 @@ header button {
 .about-us .right-info button:hover {
     border-color: #2176ff;
     background-color: #2176ff;
-    color:#FFF;
+    color: #FFF;
     -webkit-transition: all .7s ease-in-out;
     -moz-transition: all .7s ease-in-out;
     -o-transition: all .7s ease-in-out;
     transition: all .7s ease-in-out;
 }
 
+
 /* end about us */
 
-.video{
+.video {
     background-image: url(../images/building.jpg);
     height: 700px;
     background-size: cover;
@@ -248,57 +272,60 @@ header button {
     color: aliceblue
 }
 
-.video h3{
+.video h3 {
     margin: 30px auto -95px;
     font-size: 70px;
     font-weight: bolder;
 }
 
-.video iframe{
+.video iframe {
     padding: auto 10%;
 }
 
- /*start Our-Work */
 
-.our-work h2{
-    font-size:40px;
-    color:#444;
+/*start Our-Work */
+
+.our-work h2 {
+    font-size: 40px;
+    color: #444;
     font-weight: bold
 }
 
-.our-work p{
-    display:inline-block;
+.our-work p {
+    display: inline-block;
     letter-spacing: 1px;
     font-size: 20px;
     font-weight: bold;
-    color:#777;
+    color: #777;
 }
 
-.our-work button{
-    color:#FFF;
+.our-work button {
+    color: #FFF;
     border-radius: 18px;
     padding: 8px 20px;
-    border:0;
-    font-size: 18px; 
+    border: 0;
+    font-size: 18px;
 }
 
-.our-work button:hover,.our-work button:focus{
+.our-work button:hover,
+.our-work button:focus {
     color: #333;
     background-color: #fff;
     border: 2px solid #1D6CE2
 }
 
-.our-work img{
+.our-work img {
     margin-bottom: 20px;
     margin-top: 20px
 }
 
+
 /* start Articl  */
 
-.articel{
-    background-color:#303745;
+.articel {
+    background-color: #303745;
     padding: 5%;
-    position:relative
+    position: relative
 }
 
 .articel .circle {
@@ -307,7 +334,7 @@ header button {
     border-radius: 50%;
     position: absolute;
     top: 37.6%;
-    right:49.5%;
+    right: 49.5%;
     background-color: #FFF;
 }
 
@@ -316,65 +343,71 @@ header button {
     width: 1%;
     border-radius: 50%;
     position: absolute;
-    right:49.5%;
+    right: 49.5%;
     bottom: 19.6%;
     background-color: #FFF;
 }
 
-.articel .art-1, .articel .art-2, .articel .art-3, .articel .art-4{
+.articel .art-1,
+.articel .art-2,
+.articel .art-3,
+.articel .art-4 {
     margin-top: 10%;
     padding: 0 !important;
     height: 450px;
     background-color: #fff;
-    border:4px solid #fff
+    border: 4px solid #fff
 }
 
-.articel .art-1::before, .articel .art-3::before { 
+.articel .art-1::before,
+.articel .art-3::before {
     content: " ";
     position: absolute;
-    width: 0; 
+    width: 0;
     height: 0;
     top: 50%;
-    right:-9%;
+    right: -9%;
     border-top: 30px solid transparent;
     border-bottom: 30px solid transparent;
     border-left: 30px solid #fff;
 }
 
-.articel .art-2::before, .articel .art-4::before { 
+.articel .art-2::before,
+.articel .art-4::before {
     content: " ";
     position: absolute;
-    width: 0; 
+    width: 0;
     height: 0;
     top: 50%;
-    left:-9%;
+    left: -9%;
     border-top: 30px solid transparent;
     border-bottom: 30px solid transparent;
     border-right: 30px solid #fff;
-    
 }
-.articel  img{
+
+.articel img {
     width: 100%;
     height: 40%
 }
 
-.articel i{
+.articel i {
     color: #fff
 }
 
-.articel span{
+.articel span {
     background-color: #fff;
     padding: 4px
 }
 
-.line{
+.line {
     background-color: #fff;
-    width:.2%;
+    width: .2%;
     max-height: 90%;
     height: 100%;
     position: absolute;
     right: 49.9%
 }
+
 
 /* start our services section */
 
@@ -454,7 +487,9 @@ header button {
     background-color: #2176ff
 }
 
+
 /* end our services section */
+
 
 /* start contact us */
 
@@ -502,13 +537,16 @@ header button {
 
 .contact-us button:hover {
     background-color: #27334D;
-    color:#FFF
+    color: #FFF
 }
 
 .contact-us button i {
     padding-right: 10px
 }
+
+
 /* end contact us */
+
 
 /* star footer */
 
@@ -519,7 +557,7 @@ footer {
 }
 
 footer .copyright {
-    float:left;
+    float: left;
     color: #FFF;
     margin-top: 30px
 }
@@ -541,7 +579,7 @@ footer .copyright span:after {
     padding-right: 10px;
 }
 
-footer .copyright span:last-child:after{
+footer .copyright span:last-child:after {
     content: "";
     border: 0
 }
@@ -576,47 +614,68 @@ footer .social i:last-child {
     margin-right: 22px
 }
 
+
 /* end footer */
 
-@media screen and (max-width: 768px){
-  header h1{
-       font-size:40px;
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 40px;
     }
-    .video h3{
-       font-size:30px;
+    .video h3 {
+        font-size: 30px;
     }
-    .video{
+    .video {
         height: 400px
     }
-    .video iframe{
+    .video iframe {
         height: auto
     }
-    header p{
+    header p {
         font-size: 15px
     }
-    .about-us .right-info p{
+    .about-us .right-info p {
         font-size: 15px
     }
-    .about-us .left-info p span{
+    .about-us .left-info p span {
         font-size: 20px
-    }        
-    .about-us .right-info h2{
+    }
+    .about-us .right-info h2 {
         font-size: 35px
     }
-    nav .brand{
+    nav .brand {
         font-size: 30px
     }
-    .nav li,.nav li button{
+    .nav li,
+    .nav li button {
         font-size: 15px;
         padding: 8px
     }
-    .articel .art-1::before, .articel .art-3::before, .articel .art-2::before, .articel .art-4::before{
+    .articel .art-1::before,
+    .articel .art-3::before,
+    .articel .art-2::before,
+    .articel .art-4::before {
         display: none
+    }
+    .contact-us p {
+        font-size: 20px
+    }
+    .contact-us h2 {
+        font-size: 35px;
+        padding: 50px
+    }
+    .contact-us button {
+        font-size: 23px
+    }
+    .our-serv .head h2 {
+        font-size: 35px;
+        padding: 50px
+    }
+    .our-serv .serv p {
+        font-size: 20px
     }
 }
 
-
-@media {
+@media (min-width: 768px) {
     .text-center-xs {
         text-align: center;
     }
