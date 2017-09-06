@@ -1,0 +1,343 @@
+/* start fram work */
+* {
+   
+    animation-delay: .8s
+}
+
+
+
+.upper {
+    text-transform: uppercase
+}
+
+
+.main-color {
+    background-color: #1D6CE2
+}
+
+section,footer{
+    margin-top: 2%
+}
+
+a{
+    color:#fff;
+    transition: all 1s ease-in;
+    
+    
+}
+a:hover,a:focus{
+  text-decoration: none;
+     color:#fff;
+}
+/*End fram work */
+/* start our nav bar */ 
+
+nav {
+    animation-delay: .8s;
+    background-color: rgba(36, 35, 35, 0.8);
+   
+}
+nav .brand{
+     padding: 15px;
+     float: left;
+     font-size: 35px;
+     font-weight: bold;
+     color: #FFF;
+    
+    
+
+}
+ 
+;
+ strong{
+    border-radius: 8px;
+    padding: 8px
+}
+nav .nav{
+     float: right;
+   
+}
+nav ul li{
+    padding: 15px 10px;
+    font-size: 20px;
+    text-align: center
+    
+    
+
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+   background-color: #1D6CE2;
+    cursor: pointer;
+    color: #fff
+}
+
+nav button {
+    color:#FFF;
+    border-radius: 18px;
+    padding: 8px 20px;
+    border:0;
+    font-size: 18px;
+    
+}
+nav button:hover{
+    color: #333;
+    background-color: #fff;
+    
+}
+.visibel{
+    display:block !important;
+    position: absolute;
+   background-color:  rgba(36, 35, 35, 0.9);
+    border: 2px solid #382607;
+    z-index: 4;
+    top: 51px;
+    left:15px;
+   right: 0;
+    animation-delay: .1s
+    
+    
+}
+
+nav .bar{
+    float: right;
+    overflow: hidden;
+    color: aliceblue;
+    font-size: 10px;
+    margin: 3%
+}
+nav .bar:hover{
+    transform: scale(.9, .8);
+    color: #80878c
+}
+/* end our nav bar */
+
+/* start our header */
+header {
+    background-image: url('../images/Business-Marketing-For-Successive-Results.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative
+    
+}
+
+.overlay {
+    background-color: rgba(58, 65, 79, .6);
+    position: absolute;
+     top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    
+}
+header h1 {
+
+    margin-bottom: 30px;
+    font-size: 96px;
+    font-weight: bold;
+    color: #FFF;
+     animation-delay: 1.5s
+}
+
+header p {
+    color: #EEE;
+    font-size: 18px;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+     animation-delay: 2s
+}
+
+header button {
+    color:#FFF;
+    border-radius: 25px;
+    padding: 10px 30px;
+    border:0;
+    font-size: 18px;
+     animation-delay: 3s
+}
+/* end our header*/
+
+/* start about us */
+
+.about-us .left-info p:first-child {
+    margin-top: 55%;
+    margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 60px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'playfair';
+    color:#777;
+}
+
+.about-us .left-info p:nth-child(2){
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    color:#777;
+}
+
+.about-us .left-info .qute {
+    font-size: 90px;
+    font-family: 'playfair';
+    line-height: 30px;
+    vertical-align: middle;
+    margin-bottom: -20px;
+    margin-right: 20px;
+    color:#777
+}
+
+.about-us .right-info h2 {
+    font-size: 65px;
+    font-weight: 600;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    font-family: 'Roboto';
+    text-transform: capitalize;
+}
+
+.about-us .right-info p span:first-child {
+    position: relative;
+    top:5px;
+    border-radius:50%;
+    background-color:#2176ff;
+    font-size: 45px;
+    text-align: center;
+    width: 51px;
+    float:left;
+    line-height: 52px;
+    margin-right: 10px;
+    color: #FFF
+}
+
+.about-us .right-info p {
+    margin-top: 25px;
+    font-size: 18px;
+    line-height: 1.7;
+    color:#777;
+}
+.about-us .right-info button {
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    border: 1px solid #000;
+    background-color: transparent;
+    padding: 10px 25px;
+    border-radius: 25px;
+    letter-spacing: 4px;
+    color: black;
+}
+
+.about-us .right-info button:hover {
+    border-color: #2176ff;
+    background-color: #2176ff;
+    color:#FFF;
+    -webkit-transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out;
+}
+
+/* end about us */
+
+.video{
+    background-image: url(../images/building.jpg);
+    height: 700px;
+    background-size: cover;
+    font-size: 100px;
+    position: relative;
+    color: aliceblue
+    
+}
+.video h3{
+    margin: 30px auto -95px;
+    font-size: 70px;
+    font-weight: bolder;
+}
+.video iframe{
+    padding: auto 10%;
+}
+ /*start Our-Work */
+
+.our-work h2{
+    font-size:40px;
+    color:#444;
+    font-weight: bold
+}
+.our-work p{
+   
+    display:inline-block;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: bold;
+     color:#777;
+}
+
+.our-work button{
+      color:#FFF;
+    border-radius: 18px;
+    padding: 8px 20px;
+    border:0;
+    font-size: 18px;
+   
+    
+}
+.our-work button:hover,.our-work button:focus{
+     color: #333;
+    background-color: #fff;
+    border: 2px solid #1D6CE2
+}
+
+.our-work img{
+  
+    margin-bottom: 20px;
+    margin-top: 20px
+}
+@media screen and (max-width: 768px){
+  header h1{
+       font-size:40px;
+    }
+    .video h3{
+       font-size:30px;
+    }
+    .video{
+        height: 400px
+    }
+    .video iframe{
+        height: auto
+    }
+    header p{
+        font-size: 15px
+    }
+    .about-us .right-info p{
+        font-size: 15px
+    }
+    .about-us .left-info p span{
+        font-size: 20px
+    }        
+    .about-us .right-info h2{
+        font-size: 35px
+    }
+    nav .brand{
+        font-size: 30px
+    }
+    .nav li,.nav li button{
+        font-size: 15px;
+        padding: 8px
+    }
+}
+
+@media {
+    .text-center-xs {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .text-left-sm {
+        text-align: left;
+    }
+}
